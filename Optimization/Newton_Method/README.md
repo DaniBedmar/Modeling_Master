@@ -2,6 +2,7 @@ In this assigment I had to discuss the advantages and disadvantages of using New
 
 The implementation for the uni variate case is the MATLAB script file [Uni_variate.m](https://github.com/DaniBedmar/Modeling_Master/blob/main/Optimization/Newton_Method/Uni_Variate.m) and the implementation for the bi variate case is the MATLAB script file [Bi_variate.m](https://github.com/DaniBedmar/Modeling_Master/blob/main/Optimization/Newton_Method/Bi_variate.m)
 
+# Newton's method
 The Newton method is an iterative approach used to find the minimums or the roots of a given function `f(x)`. Starting from an initial guess, the subsequent values of `x` are calculated using the formula:
 
 $$
