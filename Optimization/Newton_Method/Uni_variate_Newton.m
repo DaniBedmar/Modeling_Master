@@ -10,7 +10,6 @@ xk = x0;
 %Newton method application
 for k=1:1:MAXit
     NTiter = NTiter +1;
-    disp("Working with x = " + string(xk));
 
     %We compute the next x
     sol = 2*xk^(3)-3*xk^(2)+3;
@@ -31,10 +30,8 @@ for k=1:1:MAXit
     if abs(xk-xk_ant) < tol1 || abs(F_sol) < tol2
         sol_ant = 2*xk_ant^(3)-3*xk_ant^(2)+3;
         h = abs(sol-sol_ant);
-        disp("Stopped at iteration number: "+ NTiter);
         break
     end
-    disp("Iteration number: "+ NTiter);
 end
 %Just get the different xk's we've obtained
 tries = tries(1:NTiter, :);

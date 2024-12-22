@@ -28,9 +28,8 @@ title(sprintf('Plot of 2x^3 - 3x^2 + 3 and the approximations made\nStarting fro
 hold off;
 
 disp(" ");
-disp("Press any key to continue to the next plot...");
+disp("Press any key to see the error plot");
 pause;
-disp(" ");
 
 plot(dif);
 xline(0);
